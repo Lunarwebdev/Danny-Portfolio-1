@@ -1,0 +1,36 @@
+/*  */
+@media screen and (min-width: 1024px) {
+  .s-intro__content-inner {
+    position: relative;
+    top: -150px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .s-intro__social {
+    bottom: 45rem; /* Increase this value to push it further up */
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .s-intro__scroll-down {
+    bottom: var(--vspace-8); /* higher = more upward */
+  }
+}
+
+
+@media screen and (min-width: 1024px) {
+  #intro {
+    --content-padding-top: max(10rem, 10vh);
+    --content-padding-bottom: 4rem;
+    --content-min-height: calc(var(--vspace-1) * 18);
+  }
+
+  .s-intro__content-title {
+    font-size: var(--text-xl); /* or smaller */
+    line-height: 1.3;
+  }
+
+  .s-intro__content-pretitle {
+    font-size: var(--text-sm); /* smaller subtitle */
+  }
+}
